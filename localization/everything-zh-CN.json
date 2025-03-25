@@ -1,0 +1,90 @@
+{
+    "language": {
+        "name": "简体中文",
+        "code": "zh-CN"
+    },
+    "window": {
+        "title": "Everything Batch Processor"
+    },
+    "menu": {
+        "language": "语言"
+    },
+    "input": {
+        "default_text": "请输入文件名，每行一个，可以带扩展名或不带"
+    },
+    "labels": {
+        "input_files": "输入文件：",
+        "copy_to": "复制到：",
+        "move_to": "移动到：",
+        "regex_filter": "正则表达式："
+    },
+    "buttons": {
+        "browse": "浏览",
+        "process": "搜索全部"
+    },
+    "frames": {
+        "input": "输入名称",
+        "options": "选项",
+        "progress": "进度"
+    },
+    "checkboxes": {
+        "logging": {
+            "text": "启用日志",
+            "tooltip": "将结果和操作保存到日志文件"
+        },
+        "match_structure": {
+            "text": "保持文件夹结构",
+            "tooltip": "在目标目录中保持相同的文件夹结构"
+        },
+        "delete_mode": {
+            "text": "删除文件",
+            "tooltip": "警告：这将永久删除所有匹配文件的原始位置"
+        },
+        "extension_match": {
+            "text": "匹配扩展名",
+            "tooltip": "如果未选中，将为没有扩展名的文件添加.png"
+        }
+    },
+    "tooltips": {
+        "input_files": "请输入文件名，每行一个。不带扩展名将查找所有文件类型。",
+        "copy_to": "将匹配的文件复制到此目录",
+        "move_to": "将匹配的文件移动到此目录",
+        "language": "选择语言",
+        "regex_filter": "使用正则表达式进行过滤。示例：.*\\.jpg$仅匹配JPG文件，或^(?!thumb_).*忽略以'thumb_'开头的文件"
+    },
+    "progress": {
+        "ready": "就绪",
+        "starting": "开始处理...",
+        "search": "搜索中",
+        "process": "处理中",
+        "delete": "删除中",
+        "completed": "处理完成！"
+    },
+    "messages": {
+        "processing": "正在处理{0}个文件名",
+        "searching": "搜索：",
+        "found_files": "找到的文件：",
+        "summary": "摘要：",
+        "total_processed": "处理的名称总数：{0}",
+        "total_found": "找到的文件总数：{0}",
+        "success_processed": "成功处理：{0}",
+        "failed_operations": "失败的操作：{0}",
+        "actions_taken": "执行的操作：{0}",
+        "logged_files": "已记录到文件",
+        "copied_files": "已复制{0}个文件",
+        "moved_files": "已移动{0}个文件",
+        "deleted_files": "已删除{0}个文件",
+        "no_matches": "没有找到匹配的文件"
+    },
+    "confirmations": {
+        "delete_title": "确认删除",
+        "delete_message": "警告：这将永久删除所有匹配文件的原始位置。\n\n是否继续？",
+        "move_title": "确认移动",
+        "move_message": "此操作将把所有匹配的文件移动到指定目录。\n\n是否继续？"
+    },
+    "errors": {
+        "no_files": "没有要处理的文件",
+        "process_error": "处理时出错：{0}",
+        "invalid_regex": "无效的正则表达式：{0}"
+    }
+} 

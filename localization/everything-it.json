@@ -1,0 +1,90 @@
+{
+    "language": {
+        "name": "Italiano",
+        "code": "it"
+    },
+    "window": {
+        "title": "Everything Batch Processor"
+    },
+    "menu": {
+        "language": "Lingua"
+    },
+    "input": {
+        "default_text": "Inserisci i nomi dei file, uno per riga, con o senza estensioni"
+    },
+    "labels": {
+        "input_files": "File di input:",
+        "copy_to": "Copia in:",
+        "move_to": "Sposta in:",
+        "regex_filter": "Regex:"
+    },
+    "buttons": {
+        "browse": "Sfoglia",
+        "process": "Cerca Tutto"
+    },
+    "frames": {
+        "input": "Nomi di input",
+        "options": "Opzioni",
+        "progress": "Avanzamento"
+    },
+    "checkboxes": {
+        "logging": {
+            "text": "Attiva registro",
+            "tooltip": "Salva risultati e azioni nei file di registro"
+        },
+        "match_structure": {
+            "text": "Mantieni struttura",
+            "tooltip": "Mantieni la stessa struttura delle cartelle nelle directory di destinazione"
+        },
+        "delete_mode": {
+            "text": "Elimina file",
+            "tooltip": "Attenzione: Questo eliminerà permanentemente tutti i file corrispondenti dalle loro posizioni originali"
+        },
+        "extension_match": {
+            "text": "Corrispondenza estensione",
+            "tooltip": "Se non selezionato, verrà aggiunto .png ai file senza estensione"
+        }
+    },
+    "tooltips": {
+        "input_files": "Inserisci i nomi dei file, uno per riga. Senza estensione verranno trovati tutti i tipi di file.",
+        "copy_to": "Copia i file corrispondenti in questa directory",
+        "move_to": "Sposta i file corrispondenti in questa directory",
+        "language": "Seleziona lingua",
+        "regex_filter": "Usa espressione regolare per filtrare. Esempio: .*\\.jpg$ per solo file JPG, o ^(?!thumb_).* per ignorare i file che iniziano con 'thumb_'"
+    },
+    "progress": {
+        "ready": "Pronto",
+        "starting": "Avvio elaborazione...",
+        "search": "Ricerca",
+        "process": "Elaborazione",
+        "delete": "Eliminazione",
+        "completed": "Elaborazione completata!"
+    },
+    "messages": {
+        "processing": "Elaborazione di {0} nomi di file",
+        "searching": "Ricerca:",
+        "found_files": "File trovati:",
+        "summary": "Riepilogo:",
+        "total_processed": "Totale nomi elaborati: {0}",
+        "total_found": "Totale file trovati: {0}",
+        "success_processed": "Elaborati con successo: {0}",
+        "failed_operations": "Operazioni fallite: {0}",
+        "actions_taken": "Azioni eseguite: {0}",
+        "logged_files": "Registrato nei file",
+        "copied_files": "Copiati {0} file",
+        "moved_files": "Spostati {0} file",
+        "deleted_files": "Eliminati {0} file",
+        "no_matches": "Nessun file trovato"
+    },
+    "confirmations": {
+        "delete_title": "Conferma eliminazione",
+        "delete_message": "ATTENZIONE: Questo eliminerà permanentemente tutti i file corrispondenti dalle loro posizioni originali.\n\nVuoi continuare?",
+        "move_title": "Conferma spostamento",
+        "move_message": "Questa azione sposterà tutti i file corrispondenti nella directory specificata.\n\nVuoi continuare?"
+    },
+    "errors": {
+        "no_files": "Nessun file da elaborare",
+        "process_error": "Errore durante l'elaborazione: {0}",
+        "invalid_regex": "Espressione regolare non valida: {0}"
+    }
+} 

@@ -1,0 +1,90 @@
+{
+    "language": {
+        "name": "Latina",
+        "code": "la"
+    },
+    "window": {
+        "title": "Everything Batch Processor"
+    },
+    "menu": {
+        "language": "Lingua"
+    },
+    "input": {
+        "default_text": "Insere nomina documentorum, singula per lineam, cum vel sine extensionibus"
+    },
+    "labels": {
+        "input_files": "Documenta intranda:",
+        "copy_to": "Transcribe in:",
+        "move_to": "Transfer in:",
+        "regex_filter": "Expressio regularis:"
+    },
+    "buttons": {
+        "browse": "Explora",
+        "process": "Quaere Omnia"
+    },
+    "frames": {
+        "input": "Nomina intranda",
+        "options": "Optiones",
+        "progress": "Progressus"
+    },
+    "checkboxes": {
+        "logging": {
+            "text": "Activa commentarium",
+            "tooltip": "Serva effectus et actiones in documentis commentarii"
+        },
+        "match_structure": {
+            "text": "Serva structuram",
+            "tooltip": "Serva eandem structuram indicium in indicibus destinatis"
+        },
+        "delete_mode": {
+            "text": "Dele documenta",
+            "tooltip": "Monitum: Hoc delebit permanenter omnia documenta congruentia ex locis originalibus"
+        },
+        "extension_match": {
+            "text": "Congruentia extensionis",
+            "tooltip": "Si non selectum, .png addetur documentis sine extensione"
+        }
+    },
+    "tooltips": {
+        "input_files": "Insere nomina documentorum, singula per lineam. Sine extensione, omnia genera documentorum invenientur.",
+        "copy_to": "Transcribe documenta congruentia in hunc indicem",
+        "move_to": "Transfer documenta congruentia in hunc indicem",
+        "language": "Elige linguam",
+        "regex_filter": "Utere expressione regulari ad filtrandum. Exemplum: .*\\.jpg$ pro documentis JPG solum, vel ^(?!thumb_).* ad ignoranda documenta quae incipiunt cum 'thumb_'"
+    },
+    "progress": {
+        "ready": "Paratus",
+        "starting": "Incipiens processus...",
+        "search": "Quaerens",
+        "process": "Processans",
+        "delete": "Delens",
+        "completed": "Processus completus!"
+    },
+    "messages": {
+        "processing": "Processans {0} nomina documentorum",
+        "searching": "Quaerens:",
+        "found_files": "Documenta inventa:",
+        "summary": "Summarium:",
+        "total_processed": "Summa nominum processorum: {0}",
+        "total_found": "Summa documentorum inventorum: {0}",
+        "success_processed": "Feliciter processata: {0}",
+        "failed_operations": "Operationes irritae: {0}",
+        "actions_taken": "Actiones factae: {0}",
+        "logged_files": "In commentariis notatum",
+        "copied_files": "Transcripta {0} documenta",
+        "moved_files": "Translata {0} documenta",
+        "deleted_files": "Deleta {0} documenta",
+        "no_matches": "Nihil invenit"
+    },
+    "confirmations": {
+        "delete_title": "Confirma deletionem",
+        "delete_message": "MONITUM: Hoc delebit permanenter omnia documenta congruentia ex locis originalibus.\n\nVisne pergere?",
+        "move_title": "Confirma translationem",
+        "move_message": "Haec actio transferet omnia documenta congruentia in indicem designatum.\n\nVisne pergere?"
+    },
+    "errors": {
+        "no_files": "Nulla documenta processanda",
+        "process_error": "Error in processu: {0}",
+        "invalid_regex": "Expressio regularis invalida: {0}"
+    }
+} 

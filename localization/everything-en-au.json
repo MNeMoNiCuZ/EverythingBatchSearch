@@ -1,0 +1,90 @@
+{
+    "language": {
+        "name": "Australian",
+        "code": "en-au"
+    },
+    "window": {
+        "title": "Everything Batch Processor"
+    },
+    "menu": {
+        "language": "Language"
+    },
+    "input": {
+        "default_text": "Chuck your filenames here, one per line, mate. Extensions optional"
+    },
+    "labels": {
+        "input_files": "Your Files, Mate:",
+        "copy_to": "Chuck 'Em Here:",
+        "move_to": "Send 'Em Here:",
+        "regex_filter": "Regex:"
+    },
+    "buttons": {
+        "browse": "Have a Gander",
+        "process": "Let 'Er Rip"
+    },
+    "frames": {
+        "input": "What Ya Looking For",
+        "options": "Ya Settings",
+        "progress": "How's It Going?"
+    },
+    "checkboxes": {
+        "logging": {
+            "text": "Keep a Record",
+            "tooltip": "Save what we found to a file, yeah?"
+        },
+        "match_structure": {
+            "text": "Keep Folders Tidy",
+            "tooltip": "Keep your folders sorted just like they were"
+        },
+        "delete_mode": {
+            "text": "Bin the Files",
+            "tooltip": "HEADS UP: This'll permanently delete the files from where they are"
+        },
+        "extension_match": {
+            "text": "Match the Extension",
+            "tooltip": "If ya don't tick this, we'll slap .png on files without extensions"
+        }
+    },
+    "tooltips": {
+        "input_files": "Type your filenames here, one per line. No extension? No worries, we'll find 'em all.",
+        "copy_to": "Where to copy the good ones",
+        "move_to": "Where to move the good ones",
+        "language": "Pick your lingo",
+        "regex_filter": "Use regex to filter results (e.g. .*\\.jpg$ for just JPGs, or ^(?!thumb_).* to skip the thumb_ ones)"
+    },
+    "progress": {
+        "ready": "Ready to Go",
+        "starting": "Here We Go...",
+        "search": "On the Hunt",
+        "process": "Working on It",
+        "delete": "Binning Files",
+        "completed": "Done and Dusted!"
+    },
+    "messages": {
+        "processing": "Processing {0} filenames",
+        "searching": "Looking For:",
+        "found_files": "Here's What We Found:",
+        "summary": "The Wrap Up:",
+        "total_processed": "Total Files Processed: {0}",
+        "total_found": "Good Ones Found: {0}",
+        "success_processed": "Successfully Done: {0}",
+        "failed_operations": "Stuff That Didn't Work: {0}",
+        "actions_taken": "What We Did: {0}",
+        "logged_files": "Wrote It Down",
+        "copied_files": "Copied {0} Files",
+        "moved_files": "Moved {0} Files",
+        "deleted_files": "Binned {0} Files",
+        "no_matches": "No matches found, mate"
+    },
+    "confirmations": {
+        "delete_title": "Sure About Binning?",
+        "delete_message": "HEADS UP: This'll permanently delete all matching files from where they are.\n\nFair Dinkum?",
+        "move_title": "Sure About Moving?",
+        "move_message": "This'll move all your files to the new spot.\n\nFair Dinkum?"
+    },
+    "errors": {
+        "no_files": "No files to work with, mate",
+        "process_error": "Strewth! Error: {0}",
+        "invalid_regex": "That regex ain't right: {0}"
+    }
+} 

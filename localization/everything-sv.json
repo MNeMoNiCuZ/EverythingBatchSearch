@@ -1,0 +1,90 @@
+{
+    "language": {
+        "name": "Svenska",
+        "code": "sv"
+    },
+    "window": {
+        "title": "Everything Batch Processor"
+    },
+    "menu": {
+        "language": "Språk"
+    },
+    "input": {
+        "default_text": "Ange filnamn, ett per rad, med eller utan filändelser"
+    },
+    "labels": {
+        "input_files": "Indatafiler:",
+        "copy_to": "Kopiera till:",
+        "move_to": "Flytta till:",
+        "regex_filter": "Regex:"
+    },
+    "buttons": {
+        "browse": "Bläddra",
+        "process": "Sök alla"
+    },
+    "frames": {
+        "input": "Indatanamn",
+        "options": "Alternativ",
+        "progress": "Förlopp"
+    },
+    "checkboxes": {
+        "logging": {
+            "text": "Aktivera loggning",
+            "tooltip": "Spara resultat och åtgärder i loggfiler"
+        },
+        "match_structure": {
+            "text": "Behåll mappstruktur",
+            "tooltip": "Behåll samma mappstruktur i målkatalogerna"
+        },
+        "delete_mode": {
+            "text": "Ta bort filer",
+            "tooltip": "Varning: Detta kommer att permanent ta bort alla matchande filer från deras ursprungliga platser"
+        },
+        "extension_match": {
+            "text": "Matcha filändelse",
+            "tooltip": "Om ej markerad kommer .png att läggas till för filer utan filändelse"
+        }
+    },
+    "tooltips": {
+        "input_files": "Ange filnamn, ett per rad. Utan filändelse hittas alla filtyper.",
+        "copy_to": "Kopiera matchande filer till denna katalog",
+        "move_to": "Flytta matchande filer till denna katalog",
+        "language": "Välj språk",
+        "regex_filter": "Använd reguljärt uttryck för filtrering. Exempel: .*\\.jpg$ för endast JPG-filer, eller ^(?!thumb_).* för att ignorera filer som börjar med 'thumb_'"
+    },
+    "progress": {
+        "ready": "Redo",
+        "starting": "Startar bearbetning...",
+        "search": "Söker",
+        "process": "Bearbetar",
+        "delete": "Tar bort",
+        "completed": "Bearbetning slutförd!"
+    },
+    "messages": {
+        "processing": "Bearbetar {0} filnamn",
+        "searching": "Söker:",
+        "found_files": "Hittade filer:",
+        "summary": "Sammanfattning:",
+        "total_processed": "Totalt bearbetade namn: {0}",
+        "total_found": "Totalt hittade filer: {0}",
+        "success_processed": "Framgångsrikt bearbetade: {0}",
+        "failed_operations": "Misslyckade operationer: {0}",
+        "actions_taken": "Utförda åtgärder: {0}",
+        "logged_files": "Loggat till filer",
+        "copied_files": "Kopierade {0} filer",
+        "moved_files": "Flyttade {0} filer",
+        "deleted_files": "Tog bort {0} filer",
+        "no_matches": "Inga matchande filer hittades"
+    },
+    "confirmations": {
+        "delete_title": "Bekräfta borttagning",
+        "delete_message": "VARNING: Detta kommer att permanent ta bort alla matchande filer från deras ursprungliga platser.\n\nVill du fortsätta?",
+        "move_title": "Bekräfta flytt",
+        "move_message": "Denna åtgärd kommer att flytta alla matchande filer till den angivna katalogen.\n\nVill du fortsätta?"
+    },
+    "errors": {
+        "no_files": "Inga filer att bearbeta",
+        "process_error": "Fel under bearbetning: {0}",
+        "invalid_regex": "Ogiltigt reguljärt uttryck: {0}"
+    }
+} 

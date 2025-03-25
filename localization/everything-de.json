@@ -1,0 +1,90 @@
+{
+    "language": {
+        "name": "Deutsch",
+        "code": "de"
+    },
+    "window": {
+        "title": "Everything Batch Processor"
+    },
+    "menu": {
+        "language": "Sprache"
+    },
+    "input": {
+        "default_text": "Geben Sie Dateinamen ein, eine pro Zeile, mit oder ohne Erweiterungen"
+    },
+    "labels": {
+        "input_files": "Eingabedateien:",
+        "copy_to": "Kopieren nach:",
+        "move_to": "Verschieben nach:",
+        "regex_filter": "Regex:"
+    },
+    "buttons": {
+        "browse": "Durchsuchen",
+        "process": "Alles Suchen"
+    },
+    "frames": {
+        "input": "Eingabenamen",
+        "options": "Optionen",
+        "progress": "Fortschritt"
+    },
+    "checkboxes": {
+        "logging": {
+            "text": "Protokollierung aktivieren",
+            "tooltip": "Ergebnisse und Aktionen in Protokolldateien speichern"
+        },
+        "match_structure": {
+            "text": "Ordnerstruktur beibehalten",
+            "tooltip": "Dieselbe Ordnerstruktur in den Zielverzeichnissen beibehalten"
+        },
+        "delete_mode": {
+            "text": "Dateien löschen",
+            "tooltip": "Warnung: Dies löscht alle übereinstimmenden Dateien dauerhaft von ihren ursprünglichen Speicherorten"
+        },
+        "extension_match": {
+            "text": "Erweiterung übereinstimmen",
+            "tooltip": "Wenn nicht markiert, wird .png zu Dateien ohne Erweiterung hinzugefügt"
+        }
+    },
+    "tooltips": {
+        "input_files": "Geben Sie Dateinamen ein, eine pro Zeile. Ohne Erweiterung werden alle Dateitypen gefunden.",
+        "copy_to": "Übereinstimmende Dateien in dieses Verzeichnis kopieren",
+        "move_to": "Übereinstimmende Dateien in dieses Verzeichnis verschieben",
+        "language": "Sprache auswählen",
+        "regex_filter": "Regulären Ausdruck zum Filtern verwenden. Beispiel: .*\\.jpg$ für nur JPG-Dateien, oder ^(?!thumb_).* um Dateien zu ignorieren, die mit 'thumb_' beginnen"
+    },
+    "progress": {
+        "ready": "Bereit",
+        "starting": "Starte Verarbeitung...",
+        "search": "Suche",
+        "process": "Verarbeite",
+        "delete": "Lösche",
+        "completed": "Verarbeitung abgeschlossen!"
+    },
+    "messages": {
+        "processing": "Verarbeite {0} Dateinamen",
+        "searching": "Suche:",
+        "found_files": "Gefundene Dateien:",
+        "summary": "Zusammenfassung:",
+        "total_processed": "Gesamt verarbeitete Namen: {0}",
+        "total_found": "Gesamt gefundene Dateien: {0}",
+        "success_processed": "Erfolgreich verarbeitet: {0}",
+        "failed_operations": "Fehlgeschlagene Operationen: {0}",
+        "actions_taken": "Durchgeführte Aktionen: {0}",
+        "logged_files": "In Dateien protokolliert",
+        "copied_files": "{0} Dateien kopiert",
+        "moved_files": "{0} Dateien verschoben",
+        "deleted_files": "{0} Dateien gelöscht",
+        "no_matches": "Keine Übereinstimmungen gefunden"
+    },
+    "confirmations": {
+        "delete_title": "Löschen bestätigen",
+        "delete_message": "WARNUNG: Dies löscht alle übereinstimmenden Dateien dauerhaft von ihren ursprünglichen Speicherorten.\n\nMöchten Sie fortfahren?",
+        "move_title": "Verschieben bestätigen",
+        "move_message": "Diese Aktion verschiebt alle übereinstimmenden Dateien in das angegebene Verzeichnis.\n\nMöchten Sie fortfahren?"
+    },
+    "errors": {
+        "no_files": "Keine Dateien zum Verarbeiten",
+        "process_error": "Fehler während der Verarbeitung: {0}",
+        "invalid_regex": "Ungültiger regulärer Ausdruck: {0}"
+    }
+} 

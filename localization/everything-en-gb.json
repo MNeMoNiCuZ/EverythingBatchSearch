@@ -1,0 +1,90 @@
+{
+    "language": {
+        "name": "British",
+        "code": "en-gb"
+    },
+    "window": {
+        "title": "Everything Batch Processor"
+    },
+    "menu": {
+        "language": "Language"
+    },
+    "input": {
+        "default_text": "Do be a good chap and enter your filenames here, one per line. Extensions optional"
+    },
+    "labels": {
+        "input_files": "Files, Old Chap?:",
+        "copy_to": "Pop 'Em Here:",
+        "move_to": "Shift 'Em Here:",
+        "regex_filter": "Regex:"
+    },
+    "buttons": {
+        "browse": "Have a Look",
+        "process": "Jolly Good"
+    },
+    "frames": {
+        "input": "What's Required",
+        "options": "Settings",
+        "progress": "Getting On?"
+    },
+    "checkboxes": {
+        "logging": {
+            "text": "Keep Records",
+            "tooltip": "Save the findings to a proper log"
+        },
+        "match_structure": {
+            "text": "Maintain Order",
+            "tooltip": "Keep folders organized as they were"
+        },
+        "delete_mode": {
+            "text": "Remove Files",
+            "tooltip": "I say, this will permanently delete the files from their current location"
+        },
+        "extension_match": {
+            "text": "Match Extensions",
+            "tooltip": "If unticked, we'll append .png to files lacking extensions"
+        }
+    },
+    "tooltips": {
+        "input_files": "Enter your filenames here, one per line. No extension? Not to worry, we'll find them all.",
+        "copy_to": "Copy the good ones here",
+        "move_to": "Move the good ones here",
+        "language": "Select your preferred language",
+        "regex_filter": "Use regex patterns to filter results (e.g. .*\\.jpg$ for JPGs only, or ^(?!thumb_).* to exclude thumb_ files)"
+    },
+    "progress": {
+        "ready": "Ready",
+        "starting": "Right Then...",
+        "search": "On It",
+        "process": "Working Away",
+        "delete": "Removing Files",
+        "completed": "All Done!"
+    },
+    "messages": {
+        "processing": "Processing {0} files",
+        "searching": "Looking For:",
+        "found_files": "Found These:",
+        "summary": "Summary:",
+        "total_processed": "Total Files Processed: {0}",
+        "total_found": "Files Found: {0}",
+        "success_processed": "Successfully Completed: {0}",
+        "failed_operations": "Rather Unsuccessful: {0}",
+        "actions_taken": "Actions: {0}",
+        "logged_files": "All Logged",
+        "copied_files": "Copied {0}",
+        "moved_files": "Moved {0}",
+        "deleted_files": "Removed {0}",
+        "no_matches": "No matches found old chap"
+    },
+    "confirmations": {
+        "delete_title": "Rather Sure?",
+        "delete_message": "I say, this will permanently remove all matching files from their current locations.\n\nCarry on?",
+        "move_title": "Rather Sure?",
+        "move_message": "This shall move all files to the new location.\n\nCarry on?"
+    },
+    "errors": {
+        "no_files": "Oh dear, no files to process",
+        "process_error": "Terribly sorry: {0}",
+        "invalid_regex": "I'm afraid that regex isn't quite right: {0}"
+    }
+} 

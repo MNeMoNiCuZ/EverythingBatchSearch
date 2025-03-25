@@ -1,0 +1,90 @@
+{
+    "language": {
+        "name": "Klingon",
+        "code": "tlh"
+    },
+    "window": {
+        "title": "Everything Batch Processor"
+    },
+    "menu": {
+        "language": "Hol"
+    },
+    "input": {
+        "default_text": "ghItlh Hol, wa' bIngDaq, Doch pagh"
+    },
+    "labels": {
+        "input_files": "Hol veS:",
+        "copy_to": "QoD veS:",
+        "move_to": "Dub veS:",
+        "regex_filter": "Regex:"
+    },
+    "buttons": {
+        "browse": "legh",
+        "process": "Nej Hoch!"
+    },
+    "frames": {
+        "input": "Nej beQ",
+        "options": "DuH",
+        "progress": "Qap"
+    },
+    "checkboxes": {
+        "logging": {
+            "text": "ghItlh choH",
+            "tooltip": "ghItlh Hoch Nej"
+        },
+        "match_structure": {
+            "text": "veS QaD",
+            "tooltip": "veS QaD Dub"
+        },
+        "delete_mode": {
+            "text": "HoH Hol",
+            "tooltip": "batlh: HoH Hoch Hol Daq veS!"
+        },
+        "extension_match": {
+            "text": "Doch QaD",
+            "tooltip": "pagh Doch, png chenmoH"
+        }
+    },
+    "tooltips": {
+        "input_files": "ghItlh Hol, wa' bIngDaq. pagh Doch? pagh nuQ.",
+        "copy_to": "QoD Hoch naDev",
+        "move_to": "Dub Hoch naDev",
+        "language": "Hol wIv",
+        "regex_filter": "Lo' regex (e.g. .*\\.jpg$ jpg neH, ^(?!thumb_).* pagh thumb_)"
+    },
+    "progress": {
+        "ready": "YI'el!",
+        "starting": "taH Nej...",
+        "search": "nejpu'",
+        "process": "luSuv...",
+        "delete": "HoH...",
+        "completed": "Qapla'!"
+    },
+    "messages": {
+        "processing": "luSuv {0} Hol",
+        "searching": "Nej:",
+        "found_files": "tu'lu' Hol:",
+        "summary": "Qap:",
+        "total_processed": "Hoch luSuv: {0}",
+        "total_found": "Hoch tu'lu': {0}",
+        "success_processed": "Qapla': {0}",
+        "failed_operations": "pagh Qapla': {0}",
+        "actions_taken": "vang: {0}",
+        "logged_files": "ghItlh Hol",
+        "copied_files": "QoD {0} Hol",
+        "moved_files": "Dub {0} Hol",
+        "deleted_files": "HoH {0} Hol",
+        "no_matches": "No matches found"
+    },
+    "confirmations": {
+        "delete_title": "HoH'a'?",
+        "delete_message": "batlh: HoH Hoch Hol Daq veS!\n\nQapla'?",
+        "move_title": "Dub'a'?",
+        "move_message": "Dub Hoch Hol naDev.\n\nQapla'?"
+    },
+    "errors": {
+        "no_files": "pagh Hol",
+        "process_error": "Qagh: {0}",
+        "invalid_regex": "Qagh regex: {0}"
+    }
+} 

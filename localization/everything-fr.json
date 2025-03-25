@@ -1,0 +1,90 @@
+{
+    "language": {
+        "name": "Français",
+        "code": "fr"
+    },
+    "window": {
+        "title": "Everything Batch Processor"
+    },
+    "menu": {
+        "language": "Langue"
+    },
+    "input": {
+        "default_text": "Entrez les noms de fichiers, un par ligne, avec ou sans extensions"
+    },
+    "labels": {
+        "input_files": "Fichiers d'Entrée :",
+        "copy_to": "Copier vers :",
+        "move_to": "Déplacer vers :",
+        "regex_filter": "Regex :"
+    },
+    "buttons": {
+        "browse": "Parcourir",
+        "process": "Rechercher Tout"
+    },
+    "frames": {
+        "input": "Noms d'Entrée",
+        "options": "Options",
+        "progress": "Progression"
+    },
+    "checkboxes": {
+        "logging": {
+            "text": "Activer les Logs",
+            "tooltip": "Sauvegarder les résultats et opérations dans des fichiers logs"
+        },
+        "match_structure": {
+            "text": "Conserver la Structure",
+            "tooltip": "Maintenir la même structure de dossiers dans les répertoires de sortie"
+        },
+        "delete_mode": {
+            "text": "Supprimer les Fichiers",
+            "tooltip": "ATTENTION : Ceci supprimera définitivement tous les fichiers correspondants de leurs emplacements d'origine"
+        },
+        "extension_match": {
+            "text": "Correspondance d'Extension",
+            "tooltip": "Si non coché, .png sera ajouté aux fichiers sans extension"
+        }
+    },
+    "tooltips": {
+        "input_files": "Entrez les noms de fichiers, un par ligne. Sans extension, tous les types de fichiers seront trouvés.",
+        "copy_to": "Copier les fichiers correspondants dans ce dossier",
+        "move_to": "Déplacer les fichiers correspondants dans ce dossier",
+        "language": "Sélectionner la langue",
+        "regex_filter": "Utiliser une expression régulière pour filtrer. Exemple : .*\\.jpg$ pour les fichiers JPG uniquement, ou ^(?!thumb_).* pour ignorer les fichiers commençant par 'thumb_'"
+    },
+    "progress": {
+        "ready": "Prêt",
+        "starting": "Démarrage du processus...",
+        "search": "Recherche",
+        "process": "Traitement",
+        "delete": "Suppression",
+        "completed": "Traitement terminé !"
+    },
+    "messages": {
+        "processing": "Traitement de {0} noms de fichiers",
+        "searching": "Recherche de :",
+        "found_files": "Fichiers trouvés :",
+        "summary": "Résumé :",
+        "total_processed": "Total des noms traités : {0}",
+        "total_found": "Total des fichiers trouvés : {0}",
+        "success_processed": "Traités avec succès : {0}",
+        "failed_operations": "Opérations échouées : {0}",
+        "actions_taken": "Actions effectuées : {0}",
+        "logged_files": "Enregistré dans les logs",
+        "copied_files": "Copié {0} fichiers",
+        "moved_files": "Déplacé {0} fichiers",
+        "deleted_files": "Supprimé {0} fichiers",
+        "no_matches": "Aucun fichier trouvé"
+    },
+    "confirmations": {
+        "delete_title": "Confirmer la Suppression",
+        "delete_message": "ATTENTION : Ceci supprimera définitivement tous les fichiers correspondants de leurs emplacements d'origine.\n\nVoulez-vous continuer ?",
+        "move_title": "Confirmer le Déplacement",
+        "move_message": "Ceci déplacera tous les fichiers correspondants vers le dossier spécifié.\n\nVoulez-vous continuer ?"
+    },
+    "errors": {
+        "no_files": "Aucun fichier à traiter",
+        "process_error": "Erreur pendant le traitement : {0}",
+        "invalid_regex": "Expression régulière invalide : {0}"
+    }
+} 

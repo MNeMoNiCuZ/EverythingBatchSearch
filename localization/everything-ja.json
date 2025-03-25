@@ -1,0 +1,90 @@
+{
+    "language": {
+        "name": "日本語",
+        "code": "ja"
+    },
+    "window": {
+        "title": "Everything Batch Processor"
+    },
+    "menu": {
+        "language": "言語"
+    },
+    "input": {
+        "default_text": "ファイル名を1行に1つずつ入力してください（拡張子の有無は問いません）"
+    },
+    "labels": {
+        "input_files": "入力ファイル：",
+        "copy_to": "コピー先：",
+        "move_to": "移動先：",
+        "regex_filter": "正規表現："
+    },
+    "buttons": {
+        "browse": "参照",
+        "process": "すべて検索"
+    },
+    "frames": {
+        "input": "入力名",
+        "options": "オプション",
+        "progress": "進行状況"
+    },
+    "checkboxes": {
+        "logging": {
+            "text": "ログを有効化",
+            "tooltip": "結果とアクションをログファイルに保存します"
+        },
+        "match_structure": {
+            "text": "フォルダ構造を維持",
+            "tooltip": "出力先ディレクトリで同じフォルダ構造を維持します"
+        },
+        "delete_mode": {
+            "text": "ファイルを削除",
+            "tooltip": "警告：一致するファイルを元の場所から完全に削除します"
+        },
+        "extension_match": {
+            "text": "拡張子を一致",
+            "tooltip": "チェックを外すと、拡張子のないファイルに.pngが追加されます"
+        }
+    },
+    "tooltips": {
+        "input_files": "ファイル名を1行に1つずつ入力してください。拡張子がない場合、すべてのファイルタイプが検索されます。",
+        "copy_to": "一致するファイルをこのディレクトリにコピーします",
+        "move_to": "一致するファイルをこのディレクトリに移動します",
+        "language": "言語を選択",
+        "regex_filter": "正規表現でフィルタリング。例：.*\\.jpg$でJPGファイルのみ、^(?!thumb_).*で'thumb_'で始まるファイルを除外"
+    },
+    "progress": {
+        "ready": "準備完了",
+        "starting": "処理を開始中...",
+        "search": "検索中",
+        "process": "処理中",
+        "delete": "削除中",
+        "completed": "処理が完了しました！"
+    },
+    "messages": {
+        "processing": "{0}個のファイル名を処理中",
+        "searching": "検索：",
+        "found_files": "見つかったファイル：",
+        "summary": "概要：",
+        "total_processed": "処理された名前の合計：{0}",
+        "total_found": "見つかったファイルの合計：{0}",
+        "success_processed": "正常に処理：{0}",
+        "failed_operations": "失敗した操作：{0}",
+        "actions_taken": "実行されたアクション：{0}",
+        "logged_files": "ファイルに記録済み",
+        "copied_files": "{0}個のファイルをコピー",
+        "moved_files": "{0}個のファイルを移動",
+        "deleted_files": "{0}個のファイルを削除",
+        "no_matches": "一致するファイルが見つかりません"
+    },
+    "confirmations": {
+        "delete_title": "削除の確認",
+        "delete_message": "警告：一致するファイルを元の場所から完全に削除します。\n\n続行しますか？",
+        "move_title": "移動の確認",
+        "move_message": "この操作により、一致するすべてのファイルが指定されたディレクトリに移動されます。\n\n続行しますか？"
+    },
+    "errors": {
+        "no_files": "処理するファイルがありません",
+        "process_error": "処理中にエラーが発生しました：{0}",
+        "invalid_regex": "無効な正規表現：{0}"
+    }
+} 

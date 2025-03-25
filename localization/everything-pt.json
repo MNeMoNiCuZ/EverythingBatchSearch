@@ -1,0 +1,90 @@
+{
+    "language": {
+        "name": "Português",
+        "code": "pt"
+    },
+    "window": {
+        "title": "Everything Batch Processor"
+    },
+    "menu": {
+        "language": "Idioma"
+    },
+    "input": {
+        "default_text": "Introduza nomes de ficheiros, um por linha, com ou sem extensões"
+    },
+    "labels": {
+        "input_files": "Ficheiros de entrada:",
+        "copy_to": "Copiar para:",
+        "move_to": "Mover para:",
+        "regex_filter": "Regex:"
+    },
+    "buttons": {
+        "browse": "Procurar",
+        "process": "Procurar Tudo"
+    },
+    "frames": {
+        "input": "Nomes de entrada",
+        "options": "Opções",
+        "progress": "Progresso"
+    },
+    "checkboxes": {
+        "logging": {
+            "text": "Ativar registo",
+            "tooltip": "Guardar resultados e ações em ficheiros de registo"
+        },
+        "match_structure": {
+            "text": "Manter estrutura",
+            "tooltip": "Manter a mesma estrutura de pastas nos diretórios de destino"
+        },
+        "delete_mode": {
+            "text": "Eliminar ficheiros",
+            "tooltip": "Aviso: Isto irá eliminar permanentemente todos os ficheiros correspondentes das suas localizações originais"
+        },
+        "extension_match": {
+            "text": "Corresponder extensão",
+            "tooltip": "Se não estiver selecionado, será adicionado .png aos ficheiros sem extensão"
+        }
+    },
+    "tooltips": {
+        "input_files": "Introduza nomes de ficheiros, um por linha. Sem extensão serão encontrados todos os tipos de ficheiros.",
+        "copy_to": "Copiar ficheiros correspondentes para este diretório",
+        "move_to": "Mover ficheiros correspondentes para este diretório",
+        "language": "Selecionar idioma",
+        "regex_filter": "Utilizar expressão regular para filtrar. Exemplo: .*\\.jpg$ para apenas ficheiros JPG, ou ^(?!thumb_).* para ignorar ficheiros que começam com 'thumb_'"
+    },
+    "progress": {
+        "ready": "Pronto",
+        "starting": "A iniciar processamento...",
+        "search": "A procurar",
+        "process": "A processar",
+        "delete": "A eliminar",
+        "completed": "Processamento concluído!"
+    },
+    "messages": {
+        "processing": "A processar {0} nomes de ficheiros",
+        "searching": "A procurar:",
+        "found_files": "Ficheiros encontrados:",
+        "summary": "Resumo:",
+        "total_processed": "Total de nomes processados: {0}",
+        "total_found": "Total de ficheiros encontrados: {0}",
+        "success_processed": "Processados com sucesso: {0}",
+        "failed_operations": "Operações falhadas: {0}",
+        "actions_taken": "Ações realizadas: {0}",
+        "logged_files": "Registado em ficheiros",
+        "copied_files": "Copiados {0} ficheiros",
+        "moved_files": "Movidos {0} ficheiros",
+        "deleted_files": "Eliminados {0} ficheiros",
+        "no_matches": "Nenhum ficheiro encontrado"
+    },
+    "confirmations": {
+        "delete_title": "Confirmar eliminação",
+        "delete_message": "AVISO: Isto irá eliminar permanentemente todos os ficheiros correspondentes das suas localizações originais.\n\nDeseja continuar?",
+        "move_title": "Confirmar movimentação",
+        "move_message": "Esta ação irá mover todos os ficheiros correspondentes para o diretório especificado.\n\nDeseja continuar?"
+    },
+    "errors": {
+        "no_files": "Não existem ficheiros para processar",
+        "process_error": "Erro durante o processamento: {0}",
+        "invalid_regex": "Expressão regular inválida: {0}"
+    }
+} 

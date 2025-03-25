@@ -1,0 +1,90 @@
+{
+    "language": {
+        "name": "עברית",
+        "code": "he"
+    },
+    "window": {
+        "title": "Everything Batch Processor"
+    },
+    "menu": {
+        "language": "שפה"
+    },
+    "input": {
+        "default_text": "הכנס שמות קבצים, אחד בכל שורה, עם או בלי סיומות"
+    },
+    "labels": {
+        "input_files": "קבצי קלט:",
+        "copy_to": "העתק אל:",
+        "move_to": "העבר אל:",
+        "regex_filter": "ביטוי רגולרי:"
+    },
+    "buttons": {
+        "browse": "עיון",
+        "process": "חפש הכל"
+    },
+    "frames": {
+        "input": "שמות קלט",
+        "options": "אפשרויות",
+        "progress": "התקדמות"
+    },
+    "checkboxes": {
+        "logging": {
+            "text": "הפעל רישום",
+            "tooltip": "שמור תוצאות ופעולות בקבצי רישום"
+        },
+        "match_structure": {
+            "text": "שמור מבנה תיקיות",
+            "tooltip": "שמור על אותו מבנה תיקיות בתיקיות היעד"
+        },
+        "delete_mode": {
+            "text": "מחק קבצים",
+            "tooltip": "אזהרה: פעולה זו תמחק לצמיתות את כל הקבצים התואמים ממיקומם המקורי"
+        },
+        "extension_match": {
+            "text": "התאם סיומת",
+            "tooltip": "אם לא מסומן, יתווסף .png לקבצים ללא סיומת"
+        }
+    },
+    "tooltips": {
+        "input_files": "הכנס שמות קבצים, אחד בכל שורה. ללא סיומת יימצאו כל סוגי הקבצים.",
+        "copy_to": "העתק קבצים תואמים לתיקייה זו",
+        "move_to": "העבר קבצים תואמים לתיקייה זו",
+        "language": "בחר שפה",
+        "regex_filter": "השתמש בביטוי רגולרי לסינון. דוגמה: .*\\.jpg$ עבור קבצי JPG בלבד, או ^(?!thumb_).* כדי להתעלם מקבצים המתחילים ב-'thumb_'"
+    },
+    "progress": {
+        "ready": "מוכן",
+        "starting": "מתחיל עיבוד...",
+        "search": "מחפש",
+        "process": "מעבד",
+        "delete": "מוחק",
+        "completed": "העיבוד הושלם!"
+    },
+    "messages": {
+        "processing": "מעבד {0} שמות קבצים",
+        "searching": "מחפש:",
+        "found_files": "קבצים שנמצאו:",
+        "summary": "סיכום:",
+        "total_processed": "סך שמות שעובדו: {0}",
+        "total_found": "סך קבצים שנמצאו: {0}",
+        "success_processed": "עובדו בהצלחה: {0}",
+        "failed_operations": "פעולות שנכשלו: {0}",
+        "actions_taken": "פעולות שבוצעו: {0}",
+        "logged_files": "נרשם לקבצים",
+        "copied_files": "הועתקו {0} קבצים",
+        "moved_files": "הועברו {0} קבצים",
+        "deleted_files": "נמחקו {0} קבצים",
+        "no_matches": "לא נמצאו קבצים תואמים"
+    },
+    "confirmations": {
+        "delete_title": "אישור מחיקה",
+        "delete_message": "אזהרה: פעולה זו תמחק לצמיתות את כל הקבצים התואמים ממיקומם המקורי.\n\nהאם להמשיך?",
+        "move_title": "אישור העברה",
+        "move_message": "פעולה זו תעביר את כל הקבצים התואמים לתיקייה שצוינה.\n\nהאם להמשיך?"
+    },
+    "errors": {
+        "no_files": "אין קבצים לעיבוד",
+        "process_error": "שגיאה במהלך העיבוד: {0}",
+        "invalid_regex": "ביטוי רגולרי לא חוקי: {0}"
+    }
+} 

@@ -1,0 +1,90 @@
+{
+    "language": {
+        "name": "English",
+        "code": "en"
+    },
+    "window": {
+        "title": "Everything Batch Processor"
+    },
+    "menu": {
+        "language": "Language"
+    },
+    "input": {
+        "default_text": "Enter filenames to search for, one per line, with or without extensions"
+    },
+    "labels": {
+        "input_files": "Input Files:",
+        "copy_to": "Copy to:",
+        "move_to": "Move to:",
+        "regex_filter": "Regex:"
+    },
+    "buttons": {
+        "browse": "Browse",
+        "process": "Search All Files"
+    },
+    "frames": {
+        "input": "Input Names",
+        "options": "Options",
+        "progress": "Progress"
+    },
+    "checkboxes": {
+        "logging": {
+            "text": "Enable Logging",
+            "tooltip": "Save search results and operations to log files"
+        },
+        "match_structure": {
+            "text": "Match Folder Structure",
+            "tooltip": "Keep the same folder structure in output directories as in source"
+        },
+        "delete_mode": {
+            "text": "Delete Matching Files",
+            "tooltip": "WARNING: This will permanently delete all matching files from their original locations"
+        },
+        "extension_match": {
+            "text": "Match File Extension",
+            "tooltip": "If unchecked, .png will be added to filenames without extensions"
+        }
+    },
+    "tooltips": {
+        "input_files": "Enter filenames to search for, one per line. If no extension is specified, files of all types will be found.",
+        "copy_to": "Copy matching files to this folder",
+        "move_to": "Move matching files to this folder",
+        "language": "Select interface language",
+        "regex_filter": "Use a regular expression to further filter search results. Example: .*\\.jpg$ to match only JPG files, or ^(?!thumb_).* to ignore files starting with 'thumb_'"
+    },
+    "progress": {
+        "ready": "Ready",
+        "starting": "Starting process...",
+        "search": "Searching",
+        "process": "Processing",
+        "delete": "Deleting",
+        "completed": "Processing completed!"
+    },
+    "messages": {
+        "processing": "Processing {0} filenames",
+        "searching": "Searching for:",
+        "found_files": "Found files:",
+        "summary": "Summary:",
+        "total_processed": "Total filenames processed: {0}",
+        "total_found": "Total files found: {0}",
+        "success_processed": "Successfully processed: {0}",
+        "failed_operations": "Failed operations: {0}",
+        "actions_taken": "Actions taken: {0}",
+        "logged_files": "Logged to files",
+        "copied_files": "Copied {0} files",
+        "moved_files": "Moved {0} files",
+        "deleted_files": "Deleted {0} files",
+        "no_matches": "No matches found"
+    },
+    "confirmations": {
+        "delete_title": "Confirm Delete",
+        "delete_message": "WARNING: This will permanently delete all matching files from their original locations.\n\nAre you sure you want to continue?",
+        "move_title": "Confirm Move",
+        "move_message": "This will move all matching files from their original locations to the specified folder.\n\nAre you sure you want to continue?"
+    },
+    "errors": {
+        "no_files": "No files to process",
+        "process_error": "Error during processing: {0}",
+        "invalid_regex": "Invalid regular expression: {0}"
+    }
+} 

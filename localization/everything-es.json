@@ -1,0 +1,90 @@
+{
+    "language": {
+        "name": "Español",
+        "code": "es"
+    },
+    "window": {
+        "title": "Everything Batch Processor"
+    },
+    "menu": {
+        "language": "Idioma"
+    },
+    "input": {
+        "default_text": "Ingrese nombres de archivos, uno por línea, con o sin extensiones"
+    },
+    "labels": {
+        "input_files": "Archivos de entrada:",
+        "copy_to": "Copiar a:",
+        "move_to": "Mover a:",
+        "regex_filter": "Regex:"
+    },
+    "buttons": {
+        "browse": "Examinar",
+        "process": "Buscar Todo"
+    },
+    "frames": {
+        "input": "Nombres de entrada",
+        "options": "Opciones",
+        "progress": "Progreso"
+    },
+    "checkboxes": {
+        "logging": {
+            "text": "Activar registro",
+            "tooltip": "Guardar resultados y acciones en archivos de registro"
+        },
+        "match_structure": {
+            "text": "Mantener estructura",
+            "tooltip": "Mantener la misma estructura de carpetas en los directorios de destino"
+        },
+        "delete_mode": {
+            "text": "Eliminar archivos",
+            "tooltip": "Advertencia: Esto eliminará permanentemente todos los archivos coincidentes de sus ubicaciones originales"
+        },
+        "extension_match": {
+            "text": "Coincidir extensión",
+            "tooltip": "Si no está marcado, se agregará .png a los archivos sin extensión"
+        }
+    },
+    "tooltips": {
+        "input_files": "Ingrese nombres de archivos, uno por línea. Sin extensión se encontrarán todos los tipos de archivo.",
+        "copy_to": "Copiar archivos coincidentes a este directorio",
+        "move_to": "Mover archivos coincidentes a este directorio",
+        "language": "Seleccionar idioma",
+        "regex_filter": "Usar expresión regular para filtrar. Ejemplo: .*\\.jpg$ para solo archivos JPG, o ^(?!thumb_).* para ignorar archivos que comienzan con 'thumb_'"
+    },
+    "progress": {
+        "ready": "Listo",
+        "starting": "Iniciando procesamiento...",
+        "search": "Buscando",
+        "process": "Procesando",
+        "delete": "Eliminando",
+        "completed": "¡Procesamiento completado!"
+    },
+    "messages": {
+        "processing": "Procesando {0} nombres de archivo",
+        "searching": "Buscando:",
+        "found_files": "Archivos encontrados:",
+        "summary": "Resumen:",
+        "total_processed": "Total nombres procesados: {0}",
+        "total_found": "Total archivos encontrados: {0}",
+        "success_processed": "Procesados exitosamente: {0}",
+        "failed_operations": "Operaciones fallidas: {0}",
+        "actions_taken": "Acciones realizadas: {0}",
+        "logged_files": "Registrado en archivos",
+        "copied_files": "Copiados {0} archivos",
+        "moved_files": "Movidos {0} archivos",
+        "deleted_files": "Eliminados {0} archivos",
+        "no_matches": "No se encontraron archivos coincidentes"
+    },
+    "confirmations": {
+        "delete_title": "Confirmar eliminación",
+        "delete_message": "ADVERTENCIA: Esto eliminará permanentemente todos los archivos coincidentes de sus ubicaciones originales.\n\n¿Desea continuar?",
+        "move_title": "Confirmar movimiento",
+        "move_message": "Esta acción moverá todos los archivos coincidentes al directorio especificado.\n\n¿Desea continuar?"
+    },
+    "errors": {
+        "no_files": "No hay archivos para procesar",
+        "process_error": "Error durante el procesamiento: {0}",
+        "invalid_regex": "Expresión regular inválida: {0}"
+    }
+} 
