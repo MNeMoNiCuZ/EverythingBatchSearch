@@ -2,7 +2,9 @@
 
 A powerful batch file processing tool that uses Everything search engine to quickly locate and process files. Search for multiple filenames at once and perform bulk operations with them.
 
-![image](https://github.com/user-attachments/assets/ea6c335c-4479-4f35-915f-b377dff176d0)
+Use it to find duplicates, or manage multiple files at the same time even if you made copies of them and you forgot where they all are now...
+
+![image](https://github.com/user-attachments/assets/5b3c67b8-d6b3-42b5-bfc7-a6bba56eefba)
 
 ## Requirements
 
