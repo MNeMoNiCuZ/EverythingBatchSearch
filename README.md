@@ -2,7 +2,7 @@
 
 A powerful batch file processing tool that uses Everything search engine to quickly locate and process files. Search for multiple filenames at once and perform bulk operations with them.
 
-![Screenshot placeholder - add your own screenshot here]()
+![image](https://github.com/user-attachments/assets/ea6c335c-4479-4f35-915f-b377dff176d0)
 
 ## Requirements
 
@@ -38,9 +38,10 @@ Run the included `LaunchEverythingBatch.bat` or `python everything_batch.py` to 
 
 #### Output Options
 - **Copy To**: Copy matching files to specified folder
-- **Move To**: Move matching files to specified folder
+- **Move To**: Move matching files to specified folder (use with extreme caution)
 - **Enable Logging**: Save search results to log files
-- **Delete Matching Files**: Remove found files (use with caution)
+> [!WARNING]
+> - **Delete Matching Files**: Remove found files (use with extreme caution)
 
 ### Command Line Interface
 
@@ -70,6 +71,7 @@ Options:
 - Comprehensive logging system
 - File copying, moving, and deletion capabilities
 - Both GUI and CLI interfaces
+- Protects key folders on a Windows operating system
 
 ## Notes
 
